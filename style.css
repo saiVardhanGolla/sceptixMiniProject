@@ -1,0 +1,79 @@
+ <style>
+ body {
+  background-color: #1a1a1a;
+  background-image: linear-gradient(to bottom, #1a1a1a, #333333);
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+p {
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+
+input, textarea, select {
+  background-color: #333333;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  font-family: "Courier New", Courier, monospace;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border: 1px solid #fff;
+}
+
+button {
+  background-color: #00ff00;
+  border: none;
+  color: #1a1a1a;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #00ff00;
+}
+
+body {
+  background: #000 url('https://i.gifer.com/origin/1c/1c161055a12c8ca0fbe11a95c606ef17.gif') repeat;
+  background-size: cover;
+  color: #0f0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes bg {
+  from {background-position: 0 0;}
+  to {background-position: 100% 100%;}
+}
+
+body {
+  animation: bg 20s linear infinite alternate;
+}
+
+hr{
+  color: #000;
+
+}
+</style>
